@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Sprinklers_Calculator</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>SprinklersCalculator.ico</ApplicationIcon>
+    <Win32Resource />
+    <StartupObject></StartupObject>
+    <SignAssembly>false</SignAssembly>
+    <Authors>Jakub Szostko</Authors>
+    <Company></Company>
+    <Product>Stardew Valley Sprinklers Calculator</Product>
+    <PackageId></PackageId>
+    <Description>Stardew Valley Sprinklers Calculator is a tool to fastly calculate how many tiles you can water every morning with your sprinklers.</Description>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyName>Sprinklers Calculator</AssemblyName>
+    <PackageIcon>Sprinklerscalculator.png</PackageIcon>
+    <PackageIconUrl />
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\media\Sprinklerscalculator.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
