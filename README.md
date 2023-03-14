@@ -19,7 +19,3 @@ Get the latest version of this tool from [releases](https://github.com/jacobszos
 💎 ***master*** - branch that represents current release state
 
 🔨 dev - development branch that conatins latest changes
-# 📮 Contact with creator
-If you have some questions you can contact me by:
-- [contact form](http://contact.tickrate.pl)
-- [discord server](http:discord.tickrate.pl) or username Szostek#0001
